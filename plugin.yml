@@ -1,0 +1,7 @@
+name: Scoreboard
+main: PawarenessC\si\Main
+version: 0.1
+api: 3
+load: POSTWORLD
+author: PawarenessC
+description: Scoreboardで表示
