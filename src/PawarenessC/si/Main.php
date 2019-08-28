@@ -65,8 +65,9 @@ class Main extends pluginBase implements Listener{
 			$data = date("G:i");
 			$money = $this->getMoney($player);
 			$ping = $player->getPing();
-			$c = ($ping < 150 ? "§a" : ($ping < 250 ? "§6" : "§4"
+			$c = ($ping < 150 ? "§a" : ($ping < 250 ? "§6" : "§4"));
 			
+			$sb = $this->sb;
 			$sb->setLine(1,"Name: {$player->getName()}");
 			$sb->setLine(2,"X:{$x} Y:{$y} Z: {$z}");
 			$sb->setLine(3, "Time: {$data}");
